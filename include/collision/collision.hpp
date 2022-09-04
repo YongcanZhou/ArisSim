@@ -21,7 +21,7 @@
 using namespace std;
 using namespace fcl;
 
-namespace zyc {
+namespace ArisSim {
     struct TriangleAndVertices {
         std::vector<fcl::Vector3f> vertices_;
         std::vector<fcl::Triangle> triangles_;

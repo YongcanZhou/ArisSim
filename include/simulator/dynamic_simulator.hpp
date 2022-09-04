@@ -5,8 +5,8 @@
 #ifndef DYNAMIC_H_
 #define DYNAMIC_H_
 
-using namespace Eigen;
-namespace zyc {
+
+namespace ArisSim {
     auto InitSimulator()->void;
 
     [[noreturn]] auto SimThreadGetData()->void;
